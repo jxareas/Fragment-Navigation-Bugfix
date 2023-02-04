@@ -17,7 +17,8 @@ import com.sapato.simarropop.fragments.ProfileFragment;
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
-    private SwipeRefreshLayout swipeRefreshLayout;
+    // TODO : Move this to some fragment-scoped `SwipeRefreshLayout`
+//    private SwipeRefreshLayout swipeRefreshLayout;
 
 
     @Override
@@ -25,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        swipeRefreshLayout = findViewById(R.id.swipe_refresh_layout);
+//        swipeRefreshLayout = findViewById(R.id.swipe_refresh_layout);
 
-        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                // Aquí puedes actualizar tus datos y detener la animación de refresco cuando se complete la operación
-                swipeRefreshLayout.setRefreshing(false);
-            }
-        });
+//        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+//            @Override
+//            public void onRefresh() {
+//                // Aquí puedes actualizar tus datos y detener la animación de refresco cuando se complete la operación
+//                swipeRefreshLayout.setRefreshing(false);
+//            }
+//        });
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
