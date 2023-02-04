@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Simarropop</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="user">Usuario</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="signup">Registrarse</string>
+    <string name="login">Entrar</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellidos</string>
+    <string name="location">Direccion</string>
+    <string name="articles">Artículos</string>
+    <string name="myarticles">Mis artículos</string>
+    <string name="message">Mensajes</string>
+    <string name="profile">Perfil</string>
+    <string name="login_prompt">Inicio de sesión</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="submit">Enviar</string>
+
+</resources>

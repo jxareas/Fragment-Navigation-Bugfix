@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="18dp"
+    android:layout_marginEnd="12dp"
+
+    app:cardBackgroundColor="#faefe8"
+    app:cardCornerRadius="15dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/ivMensaje"
+        android:layout_width="52dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/chat" />
+
+    <TextView
+        android:id="@+id/tvMensajeNombreRemit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="7dp"
+        android:text="Usuario" />
+
+    <TextView
+        android:id="@+id/tvMensajeDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="28dp"
+        android:text="Descripcion" />
+
+    <TextView
+        android:id="@+id/tvMensajeHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="7dp"
+        android:text="Hora" />
+
+</androidx.cardview.widget.CardView>
